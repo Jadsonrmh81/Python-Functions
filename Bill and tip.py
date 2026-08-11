@@ -15,10 +15,6 @@ except:
       print('Something wrong. Try again.')
 
         
-# E sim: você conseguiu. Desta vez, o mais importante nem é o programa estar perfeito; 
-# é você ter olhado para ele e pensado "espera, isso aqui está errado" e conseguido ajustar 
-# sem depender da resposta.
 
-# Esse programa é a prova viva do seu aprendizado.
 
 
