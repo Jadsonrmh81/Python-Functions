@@ -7,7 +7,7 @@ banknote = {
 def value(real, convert):
     return real * convert
 
-print('Available banknotes: Dollar, Euro, Pound\n') # \n serve para pular linha. Você também pode pular várias outras linhas dentro do mesmo print.
+print('Available banknotes: Dollar, Euro, Pound\n') 
 
 while True:
 
@@ -21,9 +21,9 @@ while True:
         continue
     elif user not in banknote:
         print('Banknote does not exist.')
-        continue # como as possibilidades de erro já foram abordadas, a única opção que resta é da cédula existir no dicionário. Else aqui é redundante.
+        continue 
     
-    # O bloco try/except deve abraçar a pergunta do valor e o cálculo
+   
     try:
         choice = banknote[user]
         conv = input(f'Insert the value in BRL to convert to {user}: ').strip()
@@ -31,6 +31,3 @@ while True:
         print(f'{money:.2f} BRL converted to {user} is: {value(money, choice):.2f}\n')
     except ValueError:
         print('Invalid value. Please enter a number.\n')
-
-# except: capturar todas as exceções
-# except ValueError: capturar apenas o erro de valor inválido
