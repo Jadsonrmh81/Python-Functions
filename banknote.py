@@ -32,8 +32,7 @@ while True:
         print('Invalid value. Try again.')
         
     
-# lembre-se: a ordem dos programas importa muito. 
-# Um comando pode ser executado antes, interrompendo a execução de outro.        
+
 
     
  
